@@ -44,7 +44,7 @@ projects:
 _List of projects that I am proud of_ {.text-white/60 .text-normal .m-0}
 
 <script setup>
-import Test from '../../components/Test.vue'
+import Test from '../../components/test.vue'
 </script>
 
 <Test :projects="$frontmatter.projects"/>
