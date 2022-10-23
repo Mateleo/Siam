@@ -11,17 +11,16 @@ defineProps<{ projects: Record<string, any[]> }>()
       <a
         v-for="item, idx in projects[key]"
         :key="idx"
-        class="item relative flex"
-        :href="item.link"
+        class="flex flex-col text-left hover:bg-white/20 p-2 rounded-xs"
         target="_blank"
-        :class="!item.link ? 'pointer-events-none' : ''"
-        :title="item.name"
+        :href="item.link"
+        :class="item.link ? 'hover:bg-white/20' : 'hover:bg-white/[0.02]'"
       >
         <div class="flex flex-col">
           <div class="text-normal text-white/70">{{ item.name }}</div>
           <div class="desc text-sm font-normal text-white/40" v-html="item.desc" />
         </div>
-      </a>
+    </a>
     </div>
   </template>
 </template>

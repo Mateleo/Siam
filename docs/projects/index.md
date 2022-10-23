@@ -1,10 +1,8 @@
 ---
-title: Projects - Anthony Fu
 display: Projects
 aside: false
 subtitle: List of projects that I am proud of
 description: List of projects that I am proud of
-plum: true
 projects:
   Windows:
     - name: "Spinel"
@@ -16,7 +14,7 @@ projects:
       desc: "Sentimental Analysis of 50,000 tweets on Netflix. Pandas, SNScrape, seaborn and Chart.js"
     - name: "Kaggle Competition"
       link: "https://www.kaggle.com/competitions/machine-learning-s7-iueyuytghjgj"
-      desc: "Kaggle contest on Diabetes Dataset. Using Random Rorest Classification, Logistic Regression and Naïve Bayes"
+      desc: "Kaggle contest on Diabetes Dataset. Using Random Rorest Classification, Logistic Regression and Naive Bayes"
   4eSport Ecosystem:
     - name: "4eSport.fr"
       link: "https://4esport.fr/"
