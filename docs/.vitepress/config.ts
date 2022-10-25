@@ -12,7 +12,9 @@ export default defineConfig({
       { text: "Projects", link: "/projects/" },
     ],
     socialLinks: [
-      { icon: 'github', link: 'https://github.com/vuejs/vitepress' }
+      { icon: 'github', link: 'https://github.com/Mateleo' },
+      { icon: 'linkedin', link: 'https://www.linkedin.com/in/mat%C3%A9o-siam/' },
+      
     ],
     footer: {
       message: "Released under the MIT License.",
