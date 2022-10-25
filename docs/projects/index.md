@@ -14,7 +14,7 @@ projects:
       desc: "Sentimental Analysis of 50,000 tweets on Netflix. Pandas, SNScrape, seaborn and Chart.js"
     - name: "Kaggle Competition"
       link: "https://www.kaggle.com/competitions/machine-learning-s7-iueyuytghjgj"
-      desc: "Kaggle contest on Diabetes Dataset. Using Random Rorest Classification, Logistic Regression and Naive Bayes"
+      desc: "Kaggle contest on Diabetes Dataset. Using Random Forest Classification, Logistic Regression and Naive Bayes"
   4eSport Ecosystem:
     - name: "4eSport.fr"
       link: "https://4esport.fr/"
