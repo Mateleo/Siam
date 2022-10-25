@@ -15,7 +15,7 @@ here !
 
 ---
 
-Outside of programming, I am the President of a competitive video game association,
+Outside of programming, I'm the President of a competitive video game association,
 [4eSport](https://4esport.fr). Otherwise I surf 🏄‍♂️ everywhere I can, where the waves carry
 me. 🌊
 
