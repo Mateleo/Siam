@@ -39,7 +39,7 @@ Mail me at [hi@mateo-siam.com](mailto:hi@mateo-siam.com).
         background-color: #1a1a1a !important;
     }
     .main{
-        padding: 0 40px 0 40px !important;
+        padding: 0 60px 0 60px !important;
     }
     .VPNavScreenMenu{
         display: flex;

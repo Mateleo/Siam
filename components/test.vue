@@ -1,5 +1,12 @@
 <script setup lang="ts">
 defineProps<{ projects: Record<string, any[]> }>()
+
+function goTolink(link:string){
+  console.log(link)
+  // location.href = link
+  window.open(link)
+}
+
 </script>
 
 <template>
@@ -7,20 +14,19 @@ defineProps<{ projects: Record<string, any[]> }>()
     <h4 class="mt-10 font-bold text-white/90 text-lg">
       {{ key }}
     </h4>
-    <div class="project-grid py-2 -mx-3 gap-2">
-      <a
+    <div class="project-grid py-2 gap-4">
+      <button
         v-for="item, idx in projects[key]"
         :key="idx"
         class="flex flex-col text-left hover:bg-white/20 p-2 rounded-xs"
-        target="_blank"
-        :href="item.link"
         :class="item.link ? 'hover:bg-white/20' : 'hover:bg-white/[0.02]'"
+        @click="item.link ? goTolink(item.link) : ''"
       >
         <div class="flex flex-col">
           <div class="text-normal text-white/70">{{ item.name }}</div>
           <div class="desc text-sm font-normal text-white/40" v-html="item.desc" />
         </div>
-    </a>
+    </button>
     </div>
   </template>
 </template>
@@ -29,15 +35,5 @@ defineProps<{ projects: Record<string, any[]> }>()
 .project-grid {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
-}
-
-.project-grid a.item {
-  padding: 0.8em 1em;
-  background: transparent;
-  font-size: 1.1rem;
-}
-
-.project-grid a.item:hover {
-  background: #b1b1b11e;
 }
 </style>
