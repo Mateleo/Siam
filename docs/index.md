@@ -49,15 +49,23 @@ Mail me at [hi@mateo-siam.com](mailto:hi@mateo-siam.com).
         color:  #8c8c8c !important;
         font-size: 13px !important;
     }
-    .VPDoc{
-        padding: 60px 24px 96px !important;
-    }
+    /* .VPDoc{
+        padding: 60px 24px 96px;
+    } */
 @media (max-width: 600px) {
     .main{
         padding: 0 0 0 0 !important;
     }
     h1{
         font-size: 30px !important;
+    }
+    #VPContent{
+        margin:0;
+        width:100%;
+    }
+    .VPDoc{
+        margin:0;
+        padding:50px 20px 0px 20px;
     }
 }
 </style>
