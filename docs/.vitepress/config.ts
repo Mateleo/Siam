@@ -32,6 +32,7 @@ export default defineConfig({
     ["meta", { property: "og:type", content: "website" }],
     ["meta", { property: "og:url", content: "https://mateo-siam.com/" }],
     ["meta", { property: "og:image", content: "" }],
+    ["meta", { property: "og:title", content: "Matéo-Siam Dominguez" }],
     ["meta", { property: "og:description", content: "Hey, I'm Matéo-Siam Dominguez, student in Data Science. I'm a web dev fanatic. I'm an avid user of the Vue ecosystem." }],
   ],
 });
