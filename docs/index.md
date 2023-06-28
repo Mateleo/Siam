@@ -22,7 +22,7 @@ me. 🌊
 ---
 
 Find me on [GitHub](https://github.com/Mateleo/) !  
-Mail me at [hi@mateo-siam.com](mailto:contact@mateo-siam.com).
+Mail me at [contact@mateo-siam.com](mailto:contact@mateo-siam.com).
 
 <style>
     :root{
